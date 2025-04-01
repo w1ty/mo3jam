@@ -67,7 +67,7 @@ module.exports = async (data) => {
     timestampSettings,
     baseTheme: process.env.BASE_THEME || "dark",
     siteName: process.env.SITE_NAME_HEADER || "Digital Garden",
-    mainLanguage: process.env.SITE_MAIN_LANGUAGE || "en",
+    mainLanguage: process.env.SITE_MAIN_LANGUAGE || "ar",
     siteBaseUrl: baseUrl,
     styleSettingsCss,
     buildDate: new Date(),
